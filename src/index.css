@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.center{
+  display: flex;  /*inline in nature*/
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+
+}
+.githubuser{
+  margin: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+}
